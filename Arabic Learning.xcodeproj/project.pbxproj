@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9211E2A0235EC2040051C8C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9211E29F235EC2040051C8C4 /* GoogleService-Info.plist */; };
+		9217E75D2353791A00BCE86F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217E75C2353791A00BCE86F /* LoginViewController.swift */; };
+		9217E75F2353795C00BCE86F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217E75E2353795C00BCE86F /* RegisterViewController.swift */; };
+		921E43D2241F4FD800BF3A42 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 921E43D0241F4FD800BF3A42 /* ProgressHUD.bundle */; };
+		921E43D3241F4FD800BF3A42 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 921E43D1241F4FD800BF3A42 /* ProgressHUD.m */; };
+		9228BA07237C812600D615BC /* SentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9228BA06237C812600D615BC /* SentViewController.swift */; };
+		923C568C2383ABDF00423C25 /* VideoBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C568B2383ABDF00423C25 /* VideoBank.swift */; };
+		923D03B223817BA90004E427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923D03B123817BA90004E427 /* Assets.xcassets */; };
+		9246E261235795D600FEC313 /* CustomCatogeryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246E25F235795D600FEC313 /* CustomCatogeryCell.swift */; };
+		9246E262235795D600FEC313 /* CustomCatogeryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9246E260235795D600FEC313 /* CustomCatogeryCell.xib */; };
+		9252C0DC237EDB7000C01619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252C0DB237EDB7000C01619 /* ViewController.swift */; };
+		9252C0DE237EDBBF00C01619 /* videoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9252C0DD237EDBBF00C01619 /* videoCell.swift */; };
+		92602A3A2393F59000B916DB /* 0047.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A282393F58800B916DB /* 0047.mp3 */; };
+		92602A3B2393F59100B916DB /* 0053.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A292393F58800B916DB /* 0053.mp3 */; };
+		92602A3C2393F59100B916DB /* 0056.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2A2393F58900B916DB /* 0056.mp3 */; };
+		92602A3D2393F59100B916DB /* 0058.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2B2393F58900B916DB /* 0058.mp3 */; };
+		92602A3E2393F59100B916DB /* 0046.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2C2393F58900B916DB /* 0046.mp3 */; };
+		92602A3F2393F59100B916DB /* 0059.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2D2393F58A00B916DB /* 0059.mp3 */; };
+		92602A402393F59100B916DB /* 0045.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2E2393F58A00B916DB /* 0045.mp3 */; };
+		92602A412393F59100B916DB /* 0044.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A2F2393F58B00B916DB /* 0044.mp3 */; };
+		92602A422393F59100B916DB /* 0055.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A302393F58B00B916DB /* 0055.mp3 */; };
+		92602A432393F59100B916DB /* 0049.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A312393F58C00B916DB /* 0049.mp3 */; };
+		92602A442393F59100B916DB /* 0048.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A322393F58C00B916DB /* 0048.mp3 */; };
+		92602A452393F59100B916DB /* 0052.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A332393F58D00B916DB /* 0052.mp3 */; };
+		92602A462393F59100B916DB /* 0054.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A342393F58E00B916DB /* 0054.mp3 */; };
+		92602A472393F59100B916DB /* 0050.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A352393F58E00B916DB /* 0050.mp3 */; };
+		92602A482393F59100B916DB /* 0051.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A362393F58F00B916DB /* 0051.mp3 */; };
+		92602A492393F59100B916DB /* 0060.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A372393F58F00B916DB /* 0060.mp3 */; };
+		92602A4A2393F59100B916DB /* 0057.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A382393F59000B916DB /* 0057.mp3 */; };
+		92602A4B2393F59100B916DB /* 0043.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A392393F59000B916DB /* 0043.mp3 */; };
+		92602A5E2393F5B900B916DB /* 0073.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A4C2393F5B000B916DB /* 0073.mp3 */; };
+		92602A5F2393F5B900B916DB /* 0080.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A4D2393F5B100B916DB /* 0080.mp3 */; };
+		92602A602393F5B900B916DB /* 0078.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A4E2393F5B100B916DB /* 0078.mp3 */; };
+		92602A612393F5B900B916DB /* 0067.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A4F2393F5B200B916DB /* 0067.mp3 */; };
+		92602A622393F5B900B916DB /* 0069.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A502393F5B200B916DB /* 0069.mp3 */; };
+		92602A632393F5B900B916DB /* 0075.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A512393F5B300B916DB /* 0075.mp3 */; };
+		92602A642393F5B900B916DB /* 0074.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A522393F5B300B916DB /* 0074.mp3 */; };
+		92602A652393F5B900B916DB /* 0077.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A532393F5B400B916DB /* 0077.mp3 */; };
+		92602A662393F5B900B916DB /* 0065.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A542393F5B400B916DB /* 0065.mp3 */; };
+		92602A672393F5B900B916DB /* 0076.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A552393F5B500B916DB /* 0076.mp3 */; };
+		92602A682393F5B900B916DB /* 0070.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A562393F5B500B916DB /* 0070.mp3 */; };
+		92602A692393F5B900B916DB /* 0064.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A572393F5B600B916DB /* 0064.mp3 */; };
+		92602A6A2393F5B900B916DB /* 0079.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A582393F5B600B916DB /* 0079.mp3 */; };
+		92602A6B2393F5B900B916DB /* 0072.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A592393F5B700B916DB /* 0072.mp3 */; };
+		92602A6C2393F5B900B916DB /* 0071.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5A2393F5B700B916DB /* 0071.mp3 */; };
+		92602A6D2393F5B900B916DB /* 0068.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5B2393F5B700B916DB /* 0068.mp3 */; };
+		92602A6E2393F5B900B916DB /* 0063.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5C2393F5B800B916DB /* 0063.mp3 */; };
+		92602A6F2393F5B900B916DB /* 0066.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5D2393F5B800B916DB /* 0066.mp3 */; };
+		9262B84723576B31007AF044 /* CatogeryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262B84623576B31007AF044 /* CatogeryViewController.swift */; };
+		926A4DD5235339FE00AAD3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A4DD4235339FE00AAD3C4 /* AppDelegate.swift */; };
+		926A4DD7235339FE00AAD3C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A4DD6235339FE00AAD3C4 /* HomeViewController.swift */; };
+		926A4DDF23533A0000AAD3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926A4DDD23533A0000AAD3C4 /* LaunchScreen.storyboard */; };
+		928A986C235EEEE00054C8A3 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A986A235EEEE00054C8A3 /* MessageCell.swift */; };
+		928A986D235EEEE00054C8A3 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928A986B235EEEE00054C8A3 /* MessageCell.xib */; };
+		928A986F235EF1AA0054C8A3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A986E235EF1AA0054C8A3 /* ChatViewController.swift */; };
+		928A9871235EF63E0054C8A3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A9870235EF63E0054C8A3 /* Message.swift */; };
+		92A66B8B236305AB00EDC62C /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A66B8A236305AB00EDC62C /* Users.swift */; };
+		92ABE4422383198B003D3E5E /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABE4412383198B003D3E5E /* TranslateViewController.swift */; };
+		92B4F19B238F0C6F00B33420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4F19A238F0C6F00B33420 /* Main.storyboard */; };
+		92B5B531238EE37D00CFEDC1 /* PageviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5B530238EE37D00CFEDC1 /* PageviewController.swift */; };
+		92C909D52360CEF80017362E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C909D42360CEF80017362E /* MessageViewController.swift */; };
+		92CE36F1235899AC00AF0325 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE36F0235899AC00AF0325 /* Category.swift */; };
+		92CE36F3235899BB00AF0325 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE36F2235899BB00AF0325 /* Sentence.swift */; };
+		92D5F16E2391A70800CFC8B6 /* send.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92D5F16D2391A70800CFC8B6 /* send.mp3 */; };
+		92D5F1702391A72500CFC8B6 /* recieve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92D5F16F2391A72500CFC8B6 /* recieve.mp3 */; };
+		92DFDAE62372A1F10037A1AB /* SentenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DFDAE42372A1F10037A1AB /* SentenceCell.swift */; };
+		92DFDAE72372A1F10037A1AB /* SentenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DFDAE52372A1F10037A1AB /* SentenceCell.xib */; };
+		92E48D8B23670EC900A386AA /* 0035.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6723670EC600A386AA /* 0035.mp3 */; };
+		92E48D8C23670EC900A386AA /* 0004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6823670EC600A386AA /* 0004.mp3 */; };
+		92E48D8D23670EC900A386AA /* 0012.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6923670EC600A386AA /* 0012.mp3 */; };
+		92E48D8E23670EC900A386AA /* 0010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6A23670EC600A386AA /* 0010.mp3 */; };
+		92E48D8F23670EC900A386AA /* 0033.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6B23670EC600A386AA /* 0033.mp3 */; };
+		92E48D9023670EC900A386AA /* 0023.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6C23670EC600A386AA /* 0023.mp3 */; };
+		92E48D9123670EC900A386AA /* 0039.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6D23670EC700A386AA /* 0039.mp3 */; };
+		92E48D9223670EC900A386AA /* 0034.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6E23670EC700A386AA /* 0034.mp3 */; };
+		92E48D9323670EC900A386AA /* 0024.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D6F23670EC700A386AA /* 0024.mp3 */; };
+		92E48D9423670EC900A386AA /* 0007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7023670EC700A386AA /* 0007.mp3 */; };
+		92E48D9523670EC900A386AA /* 0031.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7123670EC700A386AA /* 0031.mp3 */; };
+		92E48D9623670EC900A386AA /* 0025.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7223670EC700A386AA /* 0025.mp3 */; };
+		92E48D9723670EC900A386AA /* 0032.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7323670EC700A386AA /* 0032.mp3 */; };
+		92E48D9823670EC900A386AA /* 0020.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7423670EC700A386AA /* 0020.mp3 */; };
+		92E48D9923670EC900A386AA /* 0019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7523670EC700A386AA /* 0019.mp3 */; };
+		92E48D9A23670EC900A386AA /* 0040.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7623670EC700A386AA /* 0040.mp3 */; };
+		92E48D9B23670EC900A386AA /* 0016.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7723670EC700A386AA /* 0016.mp3 */; };
+		92E48D9C23670EC900A386AA /* 0011.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7823670EC700A386AA /* 0011.mp3 */; };
+		92E48D9D23670EC900A386AA /* 0014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7923670EC700A386AA /* 0014.mp3 */; };
+		92E48D9E23670EC900A386AA /* 0009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7A23670EC700A386AA /* 0009.mp3 */; };
+		92E48D9F23670EC900A386AA /* 0030.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7B23670EC700A386AA /* 0030.mp3 */; };
+		92E48DA023670EC900A386AA /* 0005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7C23670EC700A386AA /* 0005.mp3 */; };
+		92E48DA123670EC900A386AA /* 0015.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7D23670EC700A386AA /* 0015.mp3 */; };
+		92E48DA223670EC900A386AA /* 0028.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7E23670EC800A386AA /* 0028.mp3 */; };
+		92E48DA323670EC900A386AA /* 0006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D7F23670EC800A386AA /* 0006.mp3 */; };
+		92E48DA423670EC900A386AA /* 0029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8023670EC800A386AA /* 0029.mp3 */; };
+		92E48DA523670EC900A386AA /* 0037.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8123670EC800A386AA /* 0037.mp3 */; };
+		92E48DA623670EC900A386AA /* 0026.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8223670EC800A386AA /* 0026.mp3 */; };
+		92E48DA723670EC900A386AA /* 0017.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8323670EC800A386AA /* 0017.mp3 */; };
+		92E48DA823670EC900A386AA /* 0008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8423670EC800A386AA /* 0008.mp3 */; };
+		92E48DA923670EC900A386AA /* 0038.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8523670EC800A386AA /* 0038.mp3 */; };
+		92E48DAA23670EC900A386AA /* 0003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8623670EC800A386AA /* 0003.mp3 */; };
+		92E48DAB23670EC900A386AA /* 0036.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8723670EC800A386AA /* 0036.mp3 */; };
+		92E48DAC23670EC900A386AA /* 0013.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8823670EC800A386AA /* 0013.mp3 */; };
+		92E48DAD23670EC900A386AA /* 0018.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8923670EC800A386AA /* 0018.mp3 */; };
+		92E48DAE23670EC900A386AA /* 0027.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92E48D8A23670EC800A386AA /* 0027.mp3 */; };
+		92E84BF52395068200C8D063 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E84BF42395068200C8D063 /* ForgetViewController.swift */; };
+		92ED9AF6237D2DCD00F64351 /* VideoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ED9AF5237D2DCD00F64351 /* VideoListController.swift */; };
+		92ED9AF8237D2DEC00F64351 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ED9AF7237D2DEC00F64351 /* Video.swift */; };
+		BE17F4FF779D56EF0F43F931 /* Pods_Arabic_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B7B88E7C58956D7F740F5F /* Pods_Arabic_Learning.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61FC176541DABAD6B2BFB60D /* Pods-Arabic Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arabic Learning.debug.xcconfig"; path = "Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning.debug.xcconfig"; sourceTree = "<group>"; };
+		7E20767D6AB8E2700161C905 /* Pods-Arabic Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arabic Learning.release.xcconfig"; path = "Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning.release.xcconfig"; sourceTree = "<group>"; };
+		9211E29F235EC2040051C8C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9217E75C2353791A00BCE86F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9217E75E2353795C00BCE86F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		921E43CF241F4FD800BF3A42 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		921E43D0241F4FD800BF3A42 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		921E43D1241F4FD800BF3A42 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		921E43D4241F505000BF3A42 /* Arabic Learning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arabic Learning-Bridging-Header.h"; sourceTree = "<group>"; };
+		9228BA06237C812600D615BC /* SentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentViewController.swift; sourceTree = "<group>"; };
+		923C568B2383ABDF00423C25 /* VideoBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBank.swift; sourceTree = "<group>"; };
+		923D03B123817BA90004E427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9246E25F235795D600FEC313 /* CustomCatogeryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCatogeryCell.swift; sourceTree = "<group>"; };
+		9246E260235795D600FEC313 /* CustomCatogeryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCatogeryCell.xib; sourceTree = "<group>"; };
+		9252C0DB237EDB7000C01619 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9252C0DD237EDBBF00C01619 /* videoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoCell.swift; sourceTree = "<group>"; };
+		92602A282393F58800B916DB /* 0047.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0047.mp3; sourceTree = "<group>"; };
+		92602A292393F58800B916DB /* 0053.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0053.mp3; sourceTree = "<group>"; };
+		92602A2A2393F58900B916DB /* 0056.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0056.mp3; sourceTree = "<group>"; };
+		92602A2B2393F58900B916DB /* 0058.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0058.mp3; sourceTree = "<group>"; };
+		92602A2C2393F58900B916DB /* 0046.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0046.mp3; sourceTree = "<group>"; };
+		92602A2D2393F58A00B916DB /* 0059.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0059.mp3; sourceTree = "<group>"; };
+		92602A2E2393F58A00B916DB /* 0045.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0045.mp3; sourceTree = "<group>"; };
+		92602A2F2393F58B00B916DB /* 0044.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0044.mp3; sourceTree = "<group>"; };
+		92602A302393F58B00B916DB /* 0055.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0055.mp3; sourceTree = "<group>"; };
+		92602A312393F58C00B916DB /* 0049.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0049.mp3; sourceTree = "<group>"; };
+		92602A322393F58C00B916DB /* 0048.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0048.mp3; sourceTree = "<group>"; };
+		92602A332393F58D00B916DB /* 0052.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0052.mp3; sourceTree = "<group>"; };
+		92602A342393F58E00B916DB /* 0054.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0054.mp3; sourceTree = "<group>"; };
+		92602A352393F58E00B916DB /* 0050.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0050.mp3; sourceTree = "<group>"; };
+		92602A362393F58F00B916DB /* 0051.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0051.mp3; sourceTree = "<group>"; };
+		92602A372393F58F00B916DB /* 0060.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0060.mp3; sourceTree = "<group>"; };
+		92602A382393F59000B916DB /* 0057.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0057.mp3; sourceTree = "<group>"; };
+		92602A392393F59000B916DB /* 0043.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0043.mp3; sourceTree = "<group>"; };
+		92602A4C2393F5B000B916DB /* 0073.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0073.mp3; sourceTree = "<group>"; };
+		92602A4D2393F5B100B916DB /* 0080.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0080.mp3; sourceTree = "<group>"; };
+		92602A4E2393F5B100B916DB /* 0078.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0078.mp3; sourceTree = "<group>"; };
+		92602A4F2393F5B200B916DB /* 0067.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0067.mp3; sourceTree = "<group>"; };
+		92602A502393F5B200B916DB /* 0069.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0069.mp3; sourceTree = "<group>"; };
+		92602A512393F5B300B916DB /* 0075.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0075.mp3; sourceTree = "<group>"; };
+		92602A522393F5B300B916DB /* 0074.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0074.mp3; sourceTree = "<group>"; };
+		92602A532393F5B400B916DB /* 0077.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0077.mp3; sourceTree = "<group>"; };
+		92602A542393F5B400B916DB /* 0065.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0065.mp3; sourceTree = "<group>"; };
+		92602A552393F5B500B916DB /* 0076.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0076.mp3; sourceTree = "<group>"; };
+		92602A562393F5B500B916DB /* 0070.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0070.mp3; sourceTree = "<group>"; };
+		92602A572393F5B600B916DB /* 0064.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0064.mp3; sourceTree = "<group>"; };
+		92602A582393F5B600B916DB /* 0079.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0079.mp3; sourceTree = "<group>"; };
+		92602A592393F5B700B916DB /* 0072.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0072.mp3; sourceTree = "<group>"; };
+		92602A5A2393F5B700B916DB /* 0071.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0071.mp3; sourceTree = "<group>"; };
+		92602A5B2393F5B700B916DB /* 0068.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0068.mp3; sourceTree = "<group>"; };
+		92602A5C2393F5B800B916DB /* 0063.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0063.mp3; sourceTree = "<group>"; };
+		92602A5D2393F5B800B916DB /* 0066.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0066.mp3; sourceTree = "<group>"; };
+		9262B84623576B31007AF044 /* CatogeryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatogeryViewController.swift; sourceTree = "<group>"; };
+		926A4DD1235339FE00AAD3C4 /* Arabic Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arabic Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A4DD4235339FE00AAD3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926A4DD6235339FE00AAD3C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		926A4DDE23533A0000AAD3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926A4DE023533A0000AAD3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928A986A235EEEE00054C8A3 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		928A986B235EEEE00054C8A3 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		928A986E235EF1AA0054C8A3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		928A9870235EF63E0054C8A3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		92A66B8A236305AB00EDC62C /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		92ABE4412383198B003D3E5E /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		92B4F19A238F0C6F00B33420 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		92B5B530238EE37D00CFEDC1 /* PageviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageviewController.swift; sourceTree = "<group>"; };
+		92C909D42360CEF80017362E /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		92CE36F0235899AC00AF0325 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		92CE36F2235899BB00AF0325 /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		92D5F16D2391A70800CFC8B6 /* send.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = send.mp3; sourceTree = "<group>"; };
+		92D5F16F2391A72500CFC8B6 /* recieve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = recieve.mp3; sourceTree = "<group>"; };
+		92DFDAE42372A1F10037A1AB /* SentenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceCell.swift; sourceTree = "<group>"; };
+		92DFDAE52372A1F10037A1AB /* SentenceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SentenceCell.xib; sourceTree = "<group>"; };
+		92E48D6723670EC600A386AA /* 0035.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0035.mp3; sourceTree = "<group>"; };
+		92E48D6823670EC600A386AA /* 0004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0004.mp3; sourceTree = "<group>"; };
+		92E48D6923670EC600A386AA /* 0012.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0012.mp3; sourceTree = "<group>"; };
+		92E48D6A23670EC600A386AA /* 0010.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0010.mp3; sourceTree = "<group>"; };
+		92E48D6B23670EC600A386AA /* 0033.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0033.mp3; sourceTree = "<group>"; };
+		92E48D6C23670EC600A386AA /* 0023.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0023.mp3; sourceTree = "<group>"; };
+		92E48D6D23670EC700A386AA /* 0039.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0039.mp3; sourceTree = "<group>"; };
+		92E48D6E23670EC700A386AA /* 0034.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0034.mp3; sourceTree = "<group>"; };
+		92E48D6F23670EC700A386AA /* 0024.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0024.mp3; sourceTree = "<group>"; };
+		92E48D7023670EC700A386AA /* 0007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0007.mp3; sourceTree = "<group>"; };
+		92E48D7123670EC700A386AA /* 0031.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0031.mp3; sourceTree = "<group>"; };
+		92E48D7223670EC700A386AA /* 0025.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0025.mp3; sourceTree = "<group>"; };
+		92E48D7323670EC700A386AA /* 0032.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0032.mp3; sourceTree = "<group>"; };
+		92E48D7423670EC700A386AA /* 0020.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0020.mp3; sourceTree = "<group>"; };
+		92E48D7523670EC700A386AA /* 0019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0019.mp3; sourceTree = "<group>"; };
+		92E48D7623670EC700A386AA /* 0040.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0040.mp3; sourceTree = "<group>"; };
+		92E48D7723670EC700A386AA /* 0016.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0016.mp3; sourceTree = "<group>"; };
+		92E48D7823670EC700A386AA /* 0011.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0011.mp3; sourceTree = "<group>"; };
+		92E48D7923670EC700A386AA /* 0014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0014.mp3; sourceTree = "<group>"; };
+		92E48D7A23670EC700A386AA /* 0009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0009.mp3; sourceTree = "<group>"; };
+		92E48D7B23670EC700A386AA /* 0030.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0030.mp3; sourceTree = "<group>"; };
+		92E48D7C23670EC700A386AA /* 0005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0005.mp3; sourceTree = "<group>"; };
+		92E48D7D23670EC700A386AA /* 0015.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0015.mp3; sourceTree = "<group>"; };
+		92E48D7E23670EC800A386AA /* 0028.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0028.mp3; sourceTree = "<group>"; };
+		92E48D7F23670EC800A386AA /* 0006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0006.mp3; sourceTree = "<group>"; };
+		92E48D8023670EC800A386AA /* 0029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0029.mp3; sourceTree = "<group>"; };
+		92E48D8123670EC800A386AA /* 0037.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0037.mp3; sourceTree = "<group>"; };
+		92E48D8223670EC800A386AA /* 0026.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0026.mp3; sourceTree = "<group>"; };
+		92E48D8323670EC800A386AA /* 0017.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0017.mp3; sourceTree = "<group>"; };
+		92E48D8423670EC800A386AA /* 0008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0008.mp3; sourceTree = "<group>"; };
+		92E48D8523670EC800A386AA /* 0038.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0038.mp3; sourceTree = "<group>"; };
+		92E48D8623670EC800A386AA /* 0003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0003.mp3; sourceTree = "<group>"; };
+		92E48D8723670EC800A386AA /* 0036.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0036.mp3; sourceTree = "<group>"; };
+		92E48D8823670EC800A386AA /* 0013.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0013.mp3; sourceTree = "<group>"; };
+		92E48D8923670EC800A386AA /* 0018.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0018.mp3; sourceTree = "<group>"; };
+		92E48D8A23670EC800A386AA /* 0027.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0027.mp3; sourceTree = "<group>"; };
+		92E84BF42395068200C8D063 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		92ED9AF5237D2DCD00F64351 /* VideoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListController.swift; sourceTree = "<group>"; };
+		92ED9AF7237D2DEC00F64351 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E0B7B88E7C58956D7F740F5F /* Pods_Arabic_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arabic_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926A4DCE235339FE00AAD3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE17F4FF779D56EF0F43F931 /* Pods_Arabic_Learning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF14747EA4571CB45353CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61FC176541DABAD6B2BFB60D /* Pods-Arabic Learning.debug.xcconfig */,
+				7E20767D6AB8E2700161C905 /* Pods-Arabic Learning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7219F832E32EB783B840A7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7B88E7C58956D7F740F5F /* Pods_Arabic_Learning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92352F7C23579461000CDB4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9252C0DD237EDBBF00C01619 /* videoCell.swift */,
+				9246E25F235795D600FEC313 /* CustomCatogeryCell.swift */,
+				9246E260235795D600FEC313 /* CustomCatogeryCell.xib */,
+				928A986A235EEEE00054C8A3 /* MessageCell.swift */,
+				928A986B235EEEE00054C8A3 /* MessageCell.xib */,
+				92DFDAE42372A1F10037A1AB /* SentenceCell.swift */,
+				92DFDAE52372A1F10037A1AB /* SentenceCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9262B84823576D4E007AF044 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92B5B530238EE37D00CFEDC1 /* PageviewController.swift */,
+				9252C0DB237EDB7000C01619 /* ViewController.swift */,
+				92ED9AF5237D2DCD00F64351 /* VideoListController.swift */,
+				926A4DD6235339FE00AAD3C4 /* HomeViewController.swift */,
+				9217E75C2353791A00BCE86F /* LoginViewController.swift */,
+				92E84BF42395068200C8D063 /* ForgetViewController.swift */,
+				9262B84623576B31007AF044 /* CatogeryViewController.swift */,
+				9217E75E2353795C00BCE86F /* RegisterViewController.swift */,
+				928A986E235EF1AA0054C8A3 /* ChatViewController.swift */,
+				92C909D42360CEF80017362E /* MessageViewController.swift */,
+				9228BA06237C812600D615BC /* SentViewController.swift */,
+				92ABE4412383198B003D3E5E /* TranslateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9262B84923576D7A007AF044 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CE36F0235899AC00AF0325 /* Category.swift */,
+				92CE36F2235899BB00AF0325 /* Sentence.swift */,
+				928A9870235EF63E0054C8A3 /* Message.swift */,
+				92A66B8A236305AB00EDC62C /* Users.swift */,
+				92ED9AF7237D2DEC00F64351 /* Video.swift */,
+				923C568B2383ABDF00423C25 /* VideoBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		926A4DC8235339FE00AAD3C4 = {
+			isa = PBXGroup;
+			children = (
+				926A4DD3235339FE00AAD3C4 /* Arabic Learning */,
+				926A4DD2235339FE00AAD3C4 /* Products */,
+				4DF14747EA4571CB45353CA4 /* Pods */,
+				7219F832E32EB783B840A7F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		926A4DD2235339FE00AAD3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926A4DD1235339FE00AAD3C4 /* Arabic Learning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926A4DD3235339FE00AAD3C4 /* Arabic Learning */ = {
+			isa = PBXGroup;
+			children = (
+				92D5F16623919ACE00CFC8B6 /* Other files */,
+				923D03B123817BA90004E427 /* Assets.xcassets */,
+				92E48D6623670EB200A386AA /* Audio */,
+				92352F7C23579461000CDB4F /* View */,
+				9262B84923576D7A007AF044 /* Model */,
+				926A4DD4235339FE00AAD3C4 /* AppDelegate.swift */,
+				92B4F19A238F0C6F00B33420 /* Main.storyboard */,
+				9262B84823576D4E007AF044 /* Controller */,
+				926A4DDD23533A0000AAD3C4 /* LaunchScreen.storyboard */,
+				926A4DE023533A0000AAD3C4 /* Info.plist */,
+				9211E29F235EC2040051C8C4 /* GoogleService-Info.plist */,
+			);
+			path = "Arabic Learning";
+			sourceTree = "<group>";
+		};
+		92D5F16623919ACE00CFC8B6 /* Other files */ = {
+			isa = PBXGroup;
+			children = (
+				92D5F16D2391A70800CFC8B6 /* send.mp3 */,
+				92D5F16F2391A72500CFC8B6 /* recieve.mp3 */,
+				921E43D0241F4FD800BF3A42 /* ProgressHUD.bundle */,
+				921E43CF241F4FD800BF3A42 /* ProgressHUD.h */,
+				921E43D4241F505000BF3A42 /* Arabic Learning-Bridging-Header.h */,
+				921E43D1241F4FD800BF3A42 /* ProgressHUD.m */,
+			);
+			path = "Other files";
+			sourceTree = "<group>";
+		};
+		92E48D6623670EB200A386AA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				92E48D8623670EC800A386AA /* 0003.mp3 */,
+				92E48D6823670EC600A386AA /* 0004.mp3 */,
+				92E48D7C23670EC700A386AA /* 0005.mp3 */,
+				92E48D7F23670EC800A386AA /* 0006.mp3 */,
+				92E48D7023670EC700A386AA /* 0007.mp3 */,
+				92E48D8423670EC800A386AA /* 0008.mp3 */,
+				92E48D7A23670EC700A386AA /* 0009.mp3 */,
+				92E48D6A23670EC600A386AA /* 0010.mp3 */,
+				92E48D7823670EC700A386AA /* 0011.mp3 */,
+				92E48D6923670EC600A386AA /* 0012.mp3 */,
+				92E48D8823670EC800A386AA /* 0013.mp3 */,
+				92E48D7923670EC700A386AA /* 0014.mp3 */,
+				92E48D7D23670EC700A386AA /* 0015.mp3 */,
+				92E48D7723670EC700A386AA /* 0016.mp3 */,
+				92E48D8323670EC800A386AA /* 0017.mp3 */,
+				92E48D8923670EC800A386AA /* 0018.mp3 */,
+				92E48D7523670EC700A386AA /* 0019.mp3 */,
+				92E48D7423670EC700A386AA /* 0020.mp3 */,
+				92E48D6C23670EC600A386AA /* 0023.mp3 */,
+				92E48D6F23670EC700A386AA /* 0024.mp3 */,
+				92E48D7223670EC700A386AA /* 0025.mp3 */,
+				92E48D8223670EC800A386AA /* 0026.mp3 */,
+				92E48D8A23670EC800A386AA /* 0027.mp3 */,
+				92E48D7E23670EC800A386AA /* 0028.mp3 */,
+				92E48D8023670EC800A386AA /* 0029.mp3 */,
+				92E48D7B23670EC700A386AA /* 0030.mp3 */,
+				92E48D7123670EC700A386AA /* 0031.mp3 */,
+				92E48D7323670EC700A386AA /* 0032.mp3 */,
+				92E48D6B23670EC600A386AA /* 0033.mp3 */,
+				92E48D6E23670EC700A386AA /* 0034.mp3 */,
+				92E48D6723670EC600A386AA /* 0035.mp3 */,
+				92E48D8723670EC800A386AA /* 0036.mp3 */,
+				92E48D8123670EC800A386AA /* 0037.mp3 */,
+				92E48D8523670EC800A386AA /* 0038.mp3 */,
+				92E48D6D23670EC700A386AA /* 0039.mp3 */,
+				92E48D7623670EC700A386AA /* 0040.mp3 */,
+				92602A392393F59000B916DB /* 0043.mp3 */,
+				92602A2F2393F58B00B916DB /* 0044.mp3 */,
+				92602A2E2393F58A00B916DB /* 0045.mp3 */,
+				92602A2C2393F58900B916DB /* 0046.mp3 */,
+				92602A282393F58800B916DB /* 0047.mp3 */,
+				92602A322393F58C00B916DB /* 0048.mp3 */,
+				92602A312393F58C00B916DB /* 0049.mp3 */,
+				92602A352393F58E00B916DB /* 0050.mp3 */,
+				92602A362393F58F00B916DB /* 0051.mp3 */,
+				92602A332393F58D00B916DB /* 0052.mp3 */,
+				92602A292393F58800B916DB /* 0053.mp3 */,
+				92602A342393F58E00B916DB /* 0054.mp3 */,
+				92602A302393F58B00B916DB /* 0055.mp3 */,
+				92602A2A2393F58900B916DB /* 0056.mp3 */,
+				92602A382393F59000B916DB /* 0057.mp3 */,
+				92602A2B2393F58900B916DB /* 0058.mp3 */,
+				92602A2D2393F58A00B916DB /* 0059.mp3 */,
+				92602A5C2393F5B800B916DB /* 0063.mp3 */,
+				92602A572393F5B600B916DB /* 0064.mp3 */,
+				92602A542393F5B400B916DB /* 0065.mp3 */,
+				92602A5D2393F5B800B916DB /* 0066.mp3 */,
+				92602A4F2393F5B200B916DB /* 0067.mp3 */,
+				92602A5B2393F5B700B916DB /* 0068.mp3 */,
+				92602A502393F5B200B916DB /* 0069.mp3 */,
+				92602A562393F5B500B916DB /* 0070.mp3 */,
+				92602A5A2393F5B700B916DB /* 0071.mp3 */,
+				92602A592393F5B700B916DB /* 0072.mp3 */,
+				92602A4C2393F5B000B916DB /* 0073.mp3 */,
+				92602A522393F5B300B916DB /* 0074.mp3 */,
+				92602A512393F5B300B916DB /* 0075.mp3 */,
+				92602A552393F5B500B916DB /* 0076.mp3 */,
+				92602A532393F5B400B916DB /* 0077.mp3 */,
+				92602A4E2393F5B100B916DB /* 0078.mp3 */,
+				92602A582393F5B600B916DB /* 0079.mp3 */,
+				92602A4D2393F5B100B916DB /* 0080.mp3 */,
+				92602A372393F58F00B916DB /* 0060.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926A4DD0235339FE00AAD3C4 /* Arabic Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A4DE323533A0000AAD3C4 /* Build configuration list for PBXNativeTarget "Arabic Learning" */;
+			buildPhases = (
+				D7AF5928B93710CB9D73999F /* [CP] Check Pods Manifest.lock */,
+				926A4DCD235339FE00AAD3C4 /* Sources */,
+				926A4DCE235339FE00AAD3C4 /* Frameworks */,
+				926A4DCF235339FE00AAD3C4 /* Resources */,
+				F2A54E222D19E58DD514B553 /* [CP] Embed Pods Frameworks */,
+				CF95CE5F583A80BED3DEDEDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arabic Learning";
+			productName = "Arabic Learning";
+			productReference = 926A4DD1235339FE00AAD3C4 /* Arabic Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926A4DC9235339FE00AAD3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Muhammad Mujtaba";
+				TargetAttributes = {
+					926A4DD0235339FE00AAD3C4 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 926A4DCC235339FE00AAD3C4 /* Build configuration list for PBXProject "Arabic Learning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926A4DC8235339FE00AAD3C4;
+			productRefGroup = 926A4DD2235339FE00AAD3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926A4DD0235339FE00AAD3C4 /* Arabic Learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926A4DCF235339FE00AAD3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E48D9C23670EC900A386AA /* 0011.mp3 in Resources */,
+				92602A632393F5B900B916DB /* 0075.mp3 in Resources */,
+				92602A5E2393F5B900B916DB /* 0073.mp3 in Resources */,
+				92E48D8D23670EC900A386AA /* 0012.mp3 in Resources */,
+				92602A662393F5B900B916DB /* 0065.mp3 in Resources */,
+				92602A462393F59100B916DB /* 0054.mp3 in Resources */,
+				92E48DAC23670EC900A386AA /* 0013.mp3 in Resources */,
+				92E48DA723670EC900A386AA /* 0017.mp3 in Resources */,
+				92E48D9123670EC900A386AA /* 0039.mp3 in Resources */,
+				92602A3A2393F59000B916DB /* 0047.mp3 in Resources */,
+				92E48DA923670EC900A386AA /* 0038.mp3 in Resources */,
+				92E48D9A23670EC900A386AA /* 0040.mp3 in Resources */,
+				926A4DDF23533A0000AAD3C4 /* LaunchScreen.storyboard in Resources */,
+				92E48D9923670EC900A386AA /* 0019.mp3 in Resources */,
+				9246E262235795D600FEC313 /* CustomCatogeryCell.xib in Resources */,
+				92602A4B2393F59100B916DB /* 0043.mp3 in Resources */,
+				92D5F16E2391A70800CFC8B6 /* send.mp3 in Resources */,
+				92602A6F2393F5B900B916DB /* 0066.mp3 in Resources */,
+				92602A6E2393F5B900B916DB /* 0063.mp3 in Resources */,
+				92602A482393F59100B916DB /* 0051.mp3 in Resources */,
+				92E48D9E23670EC900A386AA /* 0009.mp3 in Resources */,
+				92602A622393F5B900B916DB /* 0069.mp3 in Resources */,
+				92E48D9023670EC900A386AA /* 0023.mp3 in Resources */,
+				92602A442393F59100B916DB /* 0048.mp3 in Resources */,
+				92602A3C2393F59100B916DB /* 0056.mp3 in Resources */,
+				92E48D8C23670EC900A386AA /* 0004.mp3 in Resources */,
+				92602A3D2393F59100B916DB /* 0058.mp3 in Resources */,
+				92602A412393F59100B916DB /* 0044.mp3 in Resources */,
+				92602A682393F5B900B916DB /* 0070.mp3 in Resources */,
+				92B4F19B238F0C6F00B33420 /* Main.storyboard in Resources */,
+				92602A602393F5B900B916DB /* 0078.mp3 in Resources */,
+				92E48DAB23670EC900A386AA /* 0036.mp3 in Resources */,
+				928A986D235EEEE00054C8A3 /* MessageCell.xib in Resources */,
+				92E48DAE23670EC900A386AA /* 0027.mp3 in Resources */,
+				92602A492393F59100B916DB /* 0060.mp3 in Resources */,
+				923D03B223817BA90004E427 /* Assets.xcassets in Resources */,
+				92E48DA523670EC900A386AA /* 0037.mp3 in Resources */,
+				92602A472393F59100B916DB /* 0050.mp3 in Resources */,
+				92E48DAA23670EC900A386AA /* 0003.mp3 in Resources */,
+				92602A652393F5B900B916DB /* 0077.mp3 in Resources */,
+				92602A6A2393F5B900B916DB /* 0079.mp3 in Resources */,
+				92602A452393F59100B916DB /* 0052.mp3 in Resources */,
+				92D5F1702391A72500CFC8B6 /* recieve.mp3 in Resources */,
+				92E48DA223670EC900A386AA /* 0028.mp3 in Resources */,
+				92E48D8F23670EC900A386AA /* 0033.mp3 in Resources */,
+				92E48D9623670EC900A386AA /* 0025.mp3 in Resources */,
+				92E48D9223670EC900A386AA /* 0034.mp3 in Resources */,
+				92E48DA823670EC900A386AA /* 0008.mp3 in Resources */,
+				921E43D2241F4FD800BF3A42 /* ProgressHUD.bundle in Resources */,
+				92602A422393F59100B916DB /* 0055.mp3 in Resources */,
+				92DFDAE72372A1F10037A1AB /* SentenceCell.xib in Resources */,
+				92602A3B2393F59100B916DB /* 0053.mp3 in Resources */,
+				92602A432393F59100B916DB /* 0049.mp3 in Resources */,
+				92602A3E2393F59100B916DB /* 0046.mp3 in Resources */,
+				92602A6D2393F5B900B916DB /* 0068.mp3 in Resources */,
+				92E48D9523670EC900A386AA /* 0031.mp3 in Resources */,
+				92602A612393F5B900B916DB /* 0067.mp3 in Resources */,
+				92602A402393F59100B916DB /* 0045.mp3 in Resources */,
+				92E48DA423670EC900A386AA /* 0029.mp3 in Resources */,
+				92602A5F2393F5B900B916DB /* 0080.mp3 in Resources */,
+				92602A3F2393F59100B916DB /* 0059.mp3 in Resources */,
+				92E48D9823670EC900A386AA /* 0020.mp3 in Resources */,
+				92E48D9F23670EC900A386AA /* 0030.mp3 in Resources */,
+				92E48DAD23670EC900A386AA /* 0018.mp3 in Resources */,
+				92E48D8E23670EC900A386AA /* 0010.mp3 in Resources */,
+				92E48D9323670EC900A386AA /* 0024.mp3 in Resources */,
+				92602A642393F5B900B916DB /* 0074.mp3 in Resources */,
+				92E48D9B23670EC900A386AA /* 0016.mp3 in Resources */,
+				92602A6C2393F5B900B916DB /* 0071.mp3 in Resources */,
+				92E48D9723670EC900A386AA /* 0032.mp3 in Resources */,
+				92602A4A2393F59100B916DB /* 0057.mp3 in Resources */,
+				92E48DA023670EC900A386AA /* 0005.mp3 in Resources */,
+				92E48D9423670EC900A386AA /* 0007.mp3 in Resources */,
+				92E48D9D23670EC900A386AA /* 0014.mp3 in Resources */,
+				92E48DA323670EC900A386AA /* 0006.mp3 in Resources */,
+				9211E2A0235EC2040051C8C4 /* GoogleService-Info.plist in Resources */,
+				92E48D8B23670EC900A386AA /* 0035.mp3 in Resources */,
+				92602A692393F5B900B916DB /* 0064.mp3 in Resources */,
+				92E48DA623670EC900A386AA /* 0026.mp3 in Resources */,
+				92602A6B2393F5B900B916DB /* 0072.mp3 in Resources */,
+				92E48DA123670EC900A386AA /* 0015.mp3 in Resources */,
+				92602A672393F5B900B916DB /* 0076.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF95CE5F583A80BED3DEDEDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AF5928B93710CB9D73999F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arabic Learning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A54E222D19E58DD514B553 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Arabic Learning/Pods-Arabic Learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926A4DCD235339FE00AAD3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE36F1235899AC00AF0325 /* Category.swift in Sources */,
+				92C909D52360CEF80017362E /* MessageViewController.swift in Sources */,
+				92DFDAE62372A1F10037A1AB /* SentenceCell.swift in Sources */,
+				9228BA07237C812600D615BC /* SentViewController.swift in Sources */,
+				928A986C235EEEE00054C8A3 /* MessageCell.swift in Sources */,
+				928A986F235EF1AA0054C8A3 /* ChatViewController.swift in Sources */,
+				921E43D3241F4FD800BF3A42 /* ProgressHUD.m in Sources */,
+				9217E75D2353791A00BCE86F /* LoginViewController.swift in Sources */,
+				92ABE4422383198B003D3E5E /* TranslateViewController.swift in Sources */,
+				9262B84723576B31007AF044 /* CatogeryViewController.swift in Sources */,
+				92A66B8B236305AB00EDC62C /* Users.swift in Sources */,
+				92E84BF52395068200C8D063 /* ForgetViewController.swift in Sources */,
+				92ED9AF8237D2DEC00F64351 /* Video.swift in Sources */,
+				92B5B531238EE37D00CFEDC1 /* PageviewController.swift in Sources */,
+				9252C0DC237EDB7000C01619 /* ViewController.swift in Sources */,
+				926A4DD7235339FE00AAD3C4 /* HomeViewController.swift in Sources */,
+				926A4DD5235339FE00AAD3C4 /* AppDelegate.swift in Sources */,
+				9246E261235795D600FEC313 /* CustomCatogeryCell.swift in Sources */,
+				9252C0DE237EDBBF00C01619 /* videoCell.swift in Sources */,
+				92ED9AF6237D2DCD00F64351 /* VideoListController.swift in Sources */,
+				92CE36F3235899BB00AF0325 /* Sentence.swift in Sources */,
+				928A9871235EF63E0054C8A3 /* Message.swift in Sources */,
+				923C568C2383ABDF00423C25 /* VideoBank.swift in Sources */,
+				9217E75F2353795C00BCE86F /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926A4DDD23533A0000AAD3C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A4DDE23533A0000AAD3C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926A4DE123533A0000AAD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		926A4DE223533A0000AAD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926A4DE423533A0000AAD3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FC176541DABAD6B2BFB60D /* Pods-Arabic Learning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63GJFGW86T;
+				INFOPLIST_FILE = "Arabic Learning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mujtaba.Arabic-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arabic Learning/Other files/Arabic Learning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		926A4DE523533A0000AAD3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E20767D6AB8E2700161C905 /* Pods-Arabic Learning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63GJFGW86T;
+				INFOPLIST_FILE = "Arabic Learning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mujtaba.Arabic-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arabic Learning/Other files/Arabic Learning-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926A4DCC235339FE00AAD3C4 /* Build configuration list for PBXProject "Arabic Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A4DE123533A0000AAD3C4 /* Debug */,
+				926A4DE223533A0000AAD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926A4DE323533A0000AAD3C4 /* Build configuration list for PBXNativeTarget "Arabic Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A4DE423533A0000AAD3C4 /* Debug */,
+				926A4DE523533A0000AAD3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926A4DC9235339FE00AAD3C4 /* Project object */;
+}
