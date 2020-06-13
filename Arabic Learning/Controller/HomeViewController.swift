@@ -22,7 +22,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.performSegue(withIdentifier: "ccc", sender: self)
+//        self.performSegue(withIdentifier: "ccc", sender: self)
         UIEnglish = UserDefaults.standard.bool(forKey: "UIEnglish")
 
 
