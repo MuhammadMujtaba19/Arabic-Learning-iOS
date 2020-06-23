@@ -60,6 +60,8 @@ class ChatViewController:UIViewController,UITextFieldDelegate,UITableViewDelegat
             cell.messageBody.textColor=UIColor(hexString: "#002436")
             cell.leftConstraint.constant = 104
             cell.rightConstraint.constant = 15
+            cell.senderName.textAlignment  = .right
+            cell.messageBody.textAlignment = .right
             
         }
         return cell
@@ -106,7 +108,7 @@ class ChatViewController:UIViewController,UITextFieldDelegate,UITableViewDelegat
                 print("error")
             }else{
                 self.playSound(index: "send")
-                print("Sent")
+                
                 self.messageTextField.isEnabled = true
 //                self.sendButton.isEnabled  = true
                 self.messageTextField.text = ""

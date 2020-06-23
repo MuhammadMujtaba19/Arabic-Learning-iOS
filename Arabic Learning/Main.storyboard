@@ -394,152 +394,140 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cub-SC-aWU" userLabel="TopView">
-                                <rect key="frame" x="0.0" y="20" width="414" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Sign Up." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZc-Ws-HhL">
+                                <rect key="frame" x="16" y="20" width="343" height="69"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="60"/>
+                                <color key="textColor" red="0.033975526690483093" green="0.14259597659111023" blue="0.20416274666786194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="yHe-PR-Ohh">
+                                <rect key="frame" x="10" y="109" width="355" height="410"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZc-Ws-HhL">
-                                        <rect key="frame" x="20" y="20" width="243.33333333333334" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="60"/>
-                                        <color key="textColor" red="0.033975526690483093" green="0.14259597659111023" blue="0.20416274666786194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gUo-p0-7CN" userLabel="MiddleView">
-                                <rect key="frame" x="0.0" y="137" width="375" height="335"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="AKB-IT-1WG" userLabel="NameStack">
-                                        <rect key="frame" x="10" y="15" width="325" height="55.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="AKB-IT-1WG" userLabel="NameStack">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="71"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsD-dK-FBP">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Muhammad Raza" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J9b-hW-E4n">
-                                                <rect key="frame" x="0.0" y="25" width="163.5" height="24.5"/>
+                                                <rect key="frame" x="0.0" y="25" width="355" height="21"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="p7M-yM-Dlj">
-                                                <rect key="frame" x="0.0" y="53.5" width="325" height="2"/>
+                                                <rect key="frame" x="0.0" y="50" width="355" height="21"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-DS-TfQ" userLabel="EmailStack">
-                                        <rect key="frame" x="10" y="85.5" width="325" height="55.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-DS-TfQ" userLabel="EmailStack">
+                                        <rect key="frame" x="0.0" y="113" width="355" height="71"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsE-C6-fnA">
-                                                <rect key="frame" x="0.0" y="0.0" width="48.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Raza@hotmail.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kyj-P9-Daw">
-                                                <rect key="frame" x="0.0" y="25" width="184" height="24.5"/>
+                                                <rect key="frame" x="0.0" y="25" width="355" height="21"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="R3m-P9-KnU">
-                                                <rect key="frame" x="0.0" y="53.5" width="325" height="2"/>
+                                                <rect key="frame" x="0.0" y="50" width="355" height="21"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pcl-iX-WUI" userLabel="PasswordStack">
-                                        <rect key="frame" x="10" y="156" width="325" height="54"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pcl-iX-WUI" userLabel="PasswordStack">
+                                        <rect key="frame" x="0.0" y="226" width="355" height="71"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPw-8y-ZiZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="**************              " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4vp-My-4tQ">
-                                                <rect key="frame" x="0.0" y="25" width="187" height="23"/>
+                                                <rect key="frame" x="0.0" y="25" width="355" height="21"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="8o0-Si-ZmQ">
-                                                <rect key="frame" x="0.0" y="52" width="325" height="2"/>
+                                                <rect key="frame" x="0.0" y="50" width="355" height="21"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="z0c-aA-Mqi" userLabel="AgainStack">
-                                        <rect key="frame" x="10" y="225" width="325" height="54"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="z0c-aA-Mqi" userLabel="AgainStack">
+                                        <rect key="frame" x="0.0" y="339" width="355" height="71"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDm-ya-QAY">
-                                                <rect key="frame" x="0.0" y="0.0" width="159.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="**************              " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kmh-NV-BIC">
-                                                <rect key="frame" x="0.0" y="25" width="187" height="23"/>
+                                                <rect key="frame" x="0.0" y="25" width="355" height="21"/>
                                                 <color key="textColor" red="0.033975526690000001" green="0.14259597660000001" blue="0.20416274670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wl1-lc-C5i">
-                                                <rect key="frame" x="0.0" y="52" width="325" height="2"/>
+                                                <rect key="frame" x="0.0" y="50" width="355" height="21"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="AKB-IT-1WG" secondAttribute="trailing" constant="10" id="Ahl-h7-V2d"/>
-                                    <constraint firstItem="pcl-iX-WUI" firstAttribute="top" secondItem="PD2-DS-TfQ" secondAttribute="bottom" constant="15" id="C5E-QV-gZ5"/>
-                                    <constraint firstItem="z0c-aA-Mqi" firstAttribute="top" secondItem="pcl-iX-WUI" secondAttribute="bottom" constant="15" id="Epl-VJ-Tm7"/>
-                                    <constraint firstAttribute="trailing" secondItem="z0c-aA-Mqi" secondAttribute="trailing" constant="10" id="GBP-nY-2OA"/>
-                                    <constraint firstItem="z0c-aA-Mqi" firstAttribute="leading" secondItem="gUo-p0-7CN" secondAttribute="leading" constant="10" id="Rai-aQ-tLr"/>
-                                    <constraint firstAttribute="trailing" secondItem="PD2-DS-TfQ" secondAttribute="trailing" constant="10" id="UqX-AY-mBX"/>
-                                    <constraint firstItem="PD2-DS-TfQ" firstAttribute="leading" secondItem="gUo-p0-7CN" secondAttribute="leading" constant="10" id="WmX-Gk-ZY7"/>
-                                    <constraint firstItem="AKB-IT-1WG" firstAttribute="top" secondItem="gUo-p0-7CN" secondAttribute="top" constant="15" id="hCn-ej-8qJ"/>
-                                    <constraint firstItem="AKB-IT-1WG" firstAttribute="leading" secondItem="gUo-p0-7CN" secondAttribute="leading" constant="10" id="mmh-4z-YwM"/>
-                                    <constraint firstItem="pcl-iX-WUI" firstAttribute="leading" secondItem="gUo-p0-7CN" secondAttribute="leading" constant="10" id="rC9-8j-TRF"/>
-                                    <constraint firstItem="PD2-DS-TfQ" firstAttribute="top" secondItem="AKB-IT-1WG" secondAttribute="bottom" constant="15" id="xVw-Vs-Z0T"/>
-                                    <constraint firstAttribute="trailing" secondItem="pcl-iX-WUI" secondAttribute="trailing" constant="10" id="zde-ZU-Vtf"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-ph-WXc" userLabel="BottomView">
-                                <rect key="frame" x="0.0" y="498" width="414" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-ph-WXc" userLabel="BottomView">
+                                <rect key="frame" x="0.0" y="539" width="375" height="108"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iL-PD-24R">
+                                        <rect key="frame" x="55" y="77" width="264" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Already a Member? Click here to Login">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-io-6bv">
-                                        <rect key="frame" x="67" y="17" width="281" height="48"/>
+                                        <rect key="frame" x="32" y="8" width="311" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="signup_button"/>
                                         <connections>
                                             <action selector="RegisterButtonPressed:" destination="31t-69-Sec" eventType="touchUpInside" id="cig-Ep-ycA"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iL-PD-24R">
-                                        <rect key="frame" x="75" y="73" width="264" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Already a Member? Click here to Login">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8ar-ph-WXc" firstAttribute="trailing" secondItem="tD6-3o-cBw" secondAttribute="trailing" id="0aS-Sa-EsT"/>
+                            <constraint firstItem="pZc-Ws-HhL" firstAttribute="leading" secondItem="tD6-3o-cBw" secondAttribute="leading" constant="16" id="9Gb-lD-OVl"/>
+                            <constraint firstItem="yHe-PR-Ohh" firstAttribute="top" secondItem="pZc-Ws-HhL" secondAttribute="bottom" constant="20" id="AqF-Yd-uvu"/>
+                            <constraint firstItem="tD6-3o-cBw" firstAttribute="trailing" secondItem="pZc-Ws-HhL" secondAttribute="trailing" constant="16" id="I7C-MU-NU0"/>
+                            <constraint firstItem="8ar-ph-WXc" firstAttribute="leading" secondItem="tD6-3o-cBw" secondAttribute="leading" id="aeu-yE-tEb"/>
+                            <constraint firstItem="8ar-ph-WXc" firstAttribute="top" secondItem="yHe-PR-Ohh" secondAttribute="bottom" constant="20" id="bOq-oC-u4a"/>
+                            <constraint firstItem="tD6-3o-cBw" firstAttribute="trailing" secondItem="yHe-PR-Ohh" secondAttribute="trailing" constant="10" id="kFT-Ux-aNe"/>
+                            <constraint firstItem="pZc-Ws-HhL" firstAttribute="top" secondItem="tD6-3o-cBw" secondAttribute="top" constant="20" id="wQx-1c-7cV"/>
+                            <constraint firstItem="yHe-PR-Ohh" firstAttribute="leading" secondItem="tD6-3o-cBw" secondAttribute="leading" constant="10" id="wnn-v6-bnH"/>
+                            <constraint firstItem="tD6-3o-cBw" firstAttribute="bottom" secondItem="8ar-ph-WXc" secondAttribute="bottom" constant="20" id="zJe-D0-ZWV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tD6-3o-cBw"/>
                     </view>
                     <navigationItem key="navigationItem" id="8L0-98-hBm"/>

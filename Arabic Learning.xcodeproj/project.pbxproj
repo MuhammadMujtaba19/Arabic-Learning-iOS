@@ -55,6 +55,11 @@
 		92602A6D2393F5B900B916DB /* 0068.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5B2393F5B700B916DB /* 0068.mp3 */; };
 		92602A6E2393F5B900B916DB /* 0063.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5C2393F5B800B916DB /* 0063.mp3 */; };
 		92602A6F2393F5B900B916DB /* 0066.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92602A5D2393F5B800B916DB /* 0066.mp3 */; };
+		9262772124A26FAD0005F8D0 /* ss3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9262771C24A26FAC0005F8D0 /* ss3.png */; };
+		9262772224A26FAD0005F8D0 /* ss5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9262771D24A26FAC0005F8D0 /* ss5.png */; };
+		9262772324A26FAD0005F8D0 /* ss4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9262771E24A26FAC0005F8D0 /* ss4.png */; };
+		9262772424A26FAD0005F8D0 /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9262771F24A26FAC0005F8D0 /* ss2.png */; };
+		9262772524A26FAD0005F8D0 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9262772024A26FAD0005F8D0 /* ss1.png */; };
 		9262B84723576B31007AF044 /* CatogeryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262B84623576B31007AF044 /* CatogeryViewController.swift */; };
 		926A4DD5235339FE00AAD3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A4DD4235339FE00AAD3C4 /* AppDelegate.swift */; };
 		926A4DD7235339FE00AAD3C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926A4DD6235339FE00AAD3C4 /* HomeViewController.swift */; };
@@ -169,6 +174,11 @@
 		92602A5B2393F5B700B916DB /* 0068.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0068.mp3; sourceTree = "<group>"; };
 		92602A5C2393F5B800B916DB /* 0063.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0063.mp3; sourceTree = "<group>"; };
 		92602A5D2393F5B800B916DB /* 0066.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0066.mp3; sourceTree = "<group>"; };
+		9262771C24A26FAC0005F8D0 /* ss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss3.png; sourceTree = "<group>"; };
+		9262771D24A26FAC0005F8D0 /* ss5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss5.png; sourceTree = "<group>"; };
+		9262771E24A26FAC0005F8D0 /* ss4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss4.png; sourceTree = "<group>"; };
+		9262771F24A26FAC0005F8D0 /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss2.png; sourceTree = "<group>"; };
+		9262772024A26FAD0005F8D0 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss1.png; sourceTree = "<group>"; };
 		9262B84623576B31007AF044 /* CatogeryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatogeryViewController.swift; sourceTree = "<group>"; };
 		926A4DD1235339FE00AAD3C4 /* Arabic Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arabic Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		926A4DD4235339FE00AAD3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -275,6 +285,18 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9262771B24A26F8E0005F8D0 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				9262772024A26FAD0005F8D0 /* ss1.png */,
+				9262771F24A26FAC0005F8D0 /* ss2.png */,
+				9262771C24A26FAC0005F8D0 /* ss3.png */,
+				9262771E24A26FAC0005F8D0 /* ss4.png */,
+				9262771D24A26FAC0005F8D0 /* ss5.png */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		9262B84823576D4E007AF044 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +368,7 @@
 		92D5F16623919ACE00CFC8B6 /* Other files */ = {
 			isa = PBXGroup;
 			children = (
+				9262771B24A26F8E0005F8D0 /* ScreenShot */,
 				92D5F16D2391A70800CFC8B6 /* send.mp3 */,
 				92D5F16F2391A72500CFC8B6 /* recieve.mp3 */,
 				921E43D0241F4FD800BF3A42 /* ProgressHUD.bundle */,
@@ -497,6 +520,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9262772424A26FAD0005F8D0 /* ss2.png in Resources */,
 				92E48D9C23670EC900A386AA /* 0011.mp3 in Resources */,
 				92602A632393F5B900B916DB /* 0075.mp3 in Resources */,
 				92602A5E2393F5B900B916DB /* 0073.mp3 in Resources */,
@@ -530,6 +554,7 @@
 				92602A602393F5B900B916DB /* 0078.mp3 in Resources */,
 				92E48DAB23670EC900A386AA /* 0036.mp3 in Resources */,
 				928A986D235EEEE00054C8A3 /* MessageCell.xib in Resources */,
+				9262772224A26FAD0005F8D0 /* ss5.png in Resources */,
 				92E48DAE23670EC900A386AA /* 0027.mp3 in Resources */,
 				92602A492393F59100B916DB /* 0060.mp3 in Resources */,
 				923D03B223817BA90004E427 /* Assets.xcassets in Resources */,
@@ -542,6 +567,7 @@
 				92D5F1702391A72500CFC8B6 /* recieve.mp3 in Resources */,
 				92E48DA223670EC900A386AA /* 0028.mp3 in Resources */,
 				92E48D8F23670EC900A386AA /* 0033.mp3 in Resources */,
+				9262772124A26FAD0005F8D0 /* ss3.png in Resources */,
 				92E48D9623670EC900A386AA /* 0025.mp3 in Resources */,
 				92E48D9223670EC900A386AA /* 0034.mp3 in Resources */,
 				92E48DA823670EC900A386AA /* 0008.mp3 in Resources */,
@@ -551,6 +577,7 @@
 				92602A3B2393F59100B916DB /* 0053.mp3 in Resources */,
 				92602A432393F59100B916DB /* 0049.mp3 in Resources */,
 				92602A3E2393F59100B916DB /* 0046.mp3 in Resources */,
+				9262772524A26FAD0005F8D0 /* ss1.png in Resources */,
 				92602A6D2393F5B900B916DB /* 0068.mp3 in Resources */,
 				92E48D9523670EC900A386AA /* 0031.mp3 in Resources */,
 				92602A612393F5B900B916DB /* 0067.mp3 in Resources */,
@@ -574,6 +601,7 @@
 				92E48DA323670EC900A386AA /* 0006.mp3 in Resources */,
 				9211E2A0235EC2040051C8C4 /* GoogleService-Info.plist in Resources */,
 				92E48D8B23670EC900A386AA /* 0035.mp3 in Resources */,
+				9262772324A26FAD0005F8D0 /* ss4.png in Resources */,
 				92602A692393F5B900B916DB /* 0064.mp3 in Resources */,
 				92E48DA623670EC900A386AA /* 0026.mp3 in Resources */,
 				92602A6B2393F5B900B916DB /* 0072.mp3 in Resources */,
